@@ -2,8 +2,8 @@
 
 ## Objective:
 
-* To understand the relative motion between the output and the input shaft of the universal joint.
-* To understand the variation of angle output shaft and input shaft.</li>
+- To understand the relative motion between the output and the input shaft of the universal joint.
+- To understand the variation of angle output shaft and input shaft.</li>
 
 ## Steps:
 
@@ -17,8 +17,8 @@
 
 </div>
 
-2. Change the values of Î² and Ï‰ and can check the results in main screen.
-Click on the show graph you can see the graph between input shaft angle vs output shaft angle, input shaft angle vs output shaft velocity.
+2. Change the values of β and ω and can check the results in main screen.
+   Click on the show graph you can see the graph between input shaft angle vs output shaft angle, input shaft angle vs output shaft velocity.
 
 <div style="text-align: center">
 
