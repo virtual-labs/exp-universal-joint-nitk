@@ -1,0 +1,1 @@
+To complete the simulation experiment on balancing multiple masses in a single plane by giving the input in driving yoke and to find the relative motion between the input and output shaft and find the variation angle output and input shaft of the universal joint.
