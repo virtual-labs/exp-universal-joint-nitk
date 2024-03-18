@@ -1,27 +1,19 @@
-<div style="text-indent: 50px">
+### Procedure
 
-## Objective:
+<div style="text-align:left">
+  Click on the Simulation icon    <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation screen. 
 
-- To understand the relative motion between the output and the input shaft of the universal joint.
-- To understand the variation of angle output shaft and input shaft.</li>
+   ![Alt text](images/procedure_1a.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
-## Steps:
+   ![Alt text](images/var2.png)
 
-</div>
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-1. In the beginning two shafts are rotating, output shaft has the inclination 400 and input shaft has the angular velocity 0.4 rad/s.
+  Click on the Rotate icon  <img src="images/rotate clockwise.png" alt="Alt text" style="height:80px; width:80px;"> to change the direction of rotation.
 
-<div style="text-align: center">
-
-[<img src="./images/exp21a.png" width="600" height="450" />](./images/exp21a.png)
-
-</div>
-
-2. Change the values of β and ω and can check the results in main screen.
-   Click on the show graph you can see the graph between input shaft angle vs output shaft angle, input shaft angle vs output shaft velocity.
-
-<div style="text-align: center">
-
-[<img src="./images/exp21b.png" width="600" height="450" />](./images/exp21b.png)
+Click on the Graph icon  <img src="images/graph1.png" alt="Alt text" style="height:80px; width:80px;"> to view the graph.    
+   ![Alt text](images/graph2.png)
 
 </div>
