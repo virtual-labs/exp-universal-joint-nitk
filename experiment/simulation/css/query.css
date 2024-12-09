@@ -8,27 +8,7 @@ em:current font size
 /* **************************** */
 /* Below 1344px (Smaller Desktops) */
 /* **************************** */
-
-@media (min-width: 1200px) {
-  #variables {
-    width: 100%;
-  }
-  #commentboxleft {
-    left: 250px;
-    font-size: 16px;
-  }
-  #commentboxright {
-    left: 540px;
-    font-size: 16px;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-    margin-left: 250px;
-  }
+@media (max-width: 84em) {
 }
 
 /* **************************** */
@@ -37,8 +17,8 @@ em:current font size
 
 @media (max-width: 75em) {
   body {
-    width: 100%;
-    margin: unset;
+    max-width: 120rem;
+    margin: 0 auto;
   }
   .title-div h1 {
     font-size: 2.5rem;
@@ -57,26 +37,10 @@ em:current font size
     width: 3rem;
     height: 3rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 200px;
-  }
+
   .div__control img {
     width: 3rem;
     height: 2.8rem;
-  }
-  #commentboxleft {
-    left: 200px;
-    font-size: 16px;
-  }
-  #commentboxright {
-    left: 450px;
-    font-size: 16px;
-  }
-  #variables {
-    width: 100%;
   }
 }
 
@@ -85,6 +49,10 @@ em:current font size
 /* **************************** */
 
 @media (max-width: 59em) {
+  body {
+    width: 100%;
+    margin: 0;
+  }
   .tool-link:link,
   .tool-link:visited {
     gap: 0.5rem;
@@ -99,7 +67,6 @@ em:current font size
   .main__task-div {
     height: auto;
   }
-
   .sidebar {
     position: fixed;
     padding: 0;
@@ -112,6 +79,10 @@ em:current font size
     justify-content: space-evenly;
     border-radius: 0;
     scroll-behavior: auto;
+    margin: 0;
+  }
+  .main {
+    grid-column: 1/-1;
   }
   .tool-menu {
     list-style: none;
@@ -136,28 +107,12 @@ em:current font size
   .main__task-div:nth-child(4) {
     margin-bottom: 6rem;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /* background-color: red; */
-  }
+
   .main-section {
     grid-template-columns: 1fr;
   }
   .canvas__div {
     grid-template-columns: 1fr;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 50px;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-  }
-  #variables {
-    width: 100%;
   }
 }
 
@@ -170,13 +125,6 @@ em:current font size
   }
   .canvas__div {
     grid-template-columns: 1fr;
-  }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
   }
 }
 
@@ -211,22 +159,6 @@ em:current font size
   .cross-img {
     width: 60%;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 50px;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-  }
-  #commentboxleft {
-    left: 15px;
-    font-size: 16px;
-  }
-  #commentboxright {
-    left: 240px;
-    font-size: 16px;
-  }
 }
 
 @media (max-width: 37.5em) {
@@ -240,14 +172,6 @@ em:current font size
 /* Below 540px (Smaller Tablets) */
 /* **************************** */
 @media (max-width: 34em) {
-  .title-div-container {
-    padding: 0.5rem 0.5rem 0rem 0.5rem;
-  }
-  .container {
-    padding: 0.5rem;
-    gap: 1rem;
-  }
-
   .title-div h1 {
     padding: 0.2rem;
 
@@ -282,15 +206,7 @@ em:current font size
   .sidebar {
     border-radius: 0;
   }
-  .canvas {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-    border: none;
-    border-top: 1px solid rgba(177, 176, 176, 0.855);
-    /* background-color: red; */
-  }
+
   .div__control img {
     width: 2.7rem;
     height: 2.5rem;
@@ -298,20 +214,14 @@ em:current font size
   .tooltip {
     font-size: 1rem;
   }
-  #variables {
-    width: 100%;
-  }
-  #commentboxleft {
-    left: 5px;
-    font-size: 11px;
-  }
-  #commentboxright {
-    left: 170px;
-    font-size: 11px;
-  }
 }
 
 @media (max-width: 27em) {
+  .canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   .tool-menu {
     gap: 1rem;
     font-size: 1rem;
